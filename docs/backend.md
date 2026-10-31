@@ -7,7 +7,7 @@ membuat query sendiri: semua logika dipanggil lewat `lib/api.js`.
 1. `npm install @supabase/supabase-js`
 2. Salin `.env.example` menjadi `.env.local`, lalu isi:
    - `NEXT_PUBLIC_SUPABASE_URL` = Project URL
-   - `NEXT_PUBLIC_SUPABASE_ANON_KEY` = publishable key (`sb_publishable_...`)
+   - `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` = publishable key (`sb_publishable_...`)
 3. Jangan pernah memakai secret key di frontend atau di repo.
 
 ## Peta halaman ke fungsi
